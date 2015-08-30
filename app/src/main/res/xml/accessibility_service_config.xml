@@ -6,5 +6,5 @@
     android:notificationTimeout="200"
     android:canRetrieveWindowContent="true" />
     <!--
-    android:settingsActivity="com.catchingnow.tinyclipboardmanager.ActivitySetting"
+    android:settingsActivity="ActivitySetting"
     -->

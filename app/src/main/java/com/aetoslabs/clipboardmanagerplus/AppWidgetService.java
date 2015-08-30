@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.appwidget.AppWidgetManager;
 import android.content.Context;
@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 import java.util.List;
 

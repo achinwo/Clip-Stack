@@ -4,7 +4,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.catchingnow.tinyclipboardmanager.ActivityBackupNew$PlaceholderFragment">
+    tools:context="com.aetoslabs.clipboardmanagerplus.ActivityBackupNew$PlaceholderFragment">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/my_toolbar"

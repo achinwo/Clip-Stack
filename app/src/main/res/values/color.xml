@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="primary_dark">#2E7D32</color>
-    <color name="primary">#40a33c</color>
-    <color name="accent">#66BB6A</color>
-    <color name="primary_light">#A5D6A7</color>
+    <color name="primary_dark">#297ACC</color>
+    <color name="primary">#3399FF</color>
+    <color name="accent">#85C2FF</color>
+    <color name="primary_light">#DAEDFF</color>
     <color name="primary_background">#E8F5E9</color>
     <color name="like_black">#212121</color>
     <color name="secondary_text">#727272</color>
@@ -14,7 +14,7 @@
     <color name="ripple_primary">@color/primary_light</color>
     <color name="ripple_high_light">#FFF59D</color>
 
-    <color name="delete">#F44336</color>
+    <color name="delete">#FF3333</color>
     <color name="ripple_delete">#FFCDD2</color>
     <color name="fab_starred">#fca503</color>
     <color name="fab">@color/accent</color>

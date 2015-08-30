@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.animation.Animator;
 import android.app.AlertDialog;
@@ -35,6 +35,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 import java.util.ArrayList;
 import java.util.Date;

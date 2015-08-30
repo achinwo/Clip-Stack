@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.content.res.Configuration;
 import android.os.Build;
@@ -12,6 +12,8 @@ import android.widget.DatePicker;
 import android.widget.HorizontalScrollView;
 import android.widget.ScrollView;
 import android.widget.Switch;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 import java.util.Calendar;
 import java.util.Date;

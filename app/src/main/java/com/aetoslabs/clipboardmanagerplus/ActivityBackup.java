@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.app.Activity;
 import android.app.ActivityOptions;
@@ -19,6 +19,8 @@ import android.widget.ImageButton;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 import java.io.File;
 import java.io.FilenameFilter;
@@ -70,7 +72,7 @@ public class ActivityBackup extends MyActionBarActivity {
     private void initImportView(boolean showToast) {
 
         backupView.removeAllViewsInLayout();
-        LayoutInflater layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+        LayoutInflater layoutInflater = (LayoutInflater) getApplicationContext().getSystemService(LAYOUT_INFLATER_SERVICE);
 
         File[] backupFiles = Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_DOWNLOADS)
                 .listFiles(new FilenameFilter() {

@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.app.IntentService;
 import android.content.ClipboardManager;
@@ -8,6 +8,8 @@ import android.os.Handler;
 import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 
 /**

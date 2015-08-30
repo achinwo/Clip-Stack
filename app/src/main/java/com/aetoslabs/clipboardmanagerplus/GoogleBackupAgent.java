@@ -1,12 +1,10 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.app.backup.BackupAgentHelper;
 import android.app.backup.FileBackupHelper;
 import android.app.backup.SharedPreferencesBackupHelper;
 import android.content.Context;
 import android.util.Log;
-
-import java.io.File;
 
 /**
  * Created by heruoxin on 15/2/20.

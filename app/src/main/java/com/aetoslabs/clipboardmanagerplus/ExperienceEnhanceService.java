@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.accessibilityservice.AccessibilityService;
 import android.content.BroadcastReceiver;

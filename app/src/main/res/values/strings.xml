@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources tools:ignore="MissingTranslation" xmlns:tools="http://schemas.android.com/tools">
 
-    <string name="app_name">Clip Stack</string>
+    <string name="app_name">Clip Stack Plus</string>
     <string name="clip_notification_title">%1$s</string>
     <string name="clip_notification_copy_button">Copy</string>
     <string name="clip_notification_share_button">Share</string>
@@ -10,7 +10,7 @@
     <string name="clip_notification_text">Expand to show more.</string>
     <string name="clip_notification_single_text">Click to add text.</string>
     <string name="share_clipboard_to">Share text to…</string>
-    <string name="title_activity_main">"Clip Stack"</string>
+    <string name="title_activity_main">"Clip Stack Plus"</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="action_search">Search</string>

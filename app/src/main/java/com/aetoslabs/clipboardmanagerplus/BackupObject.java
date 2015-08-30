@@ -1,10 +1,11 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 import android.webkit.MimeTypeMap;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 import java.io.BufferedReader;
 import java.io.File;

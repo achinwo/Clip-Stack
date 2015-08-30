@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.app.Service;
 import android.content.Context;
@@ -10,12 +10,12 @@ import android.os.IBinder;
 import android.graphics.PixelFormat;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.view.Gravity;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.view.WindowManager;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 //https://github.com/EatHeat/FloatingExample
 

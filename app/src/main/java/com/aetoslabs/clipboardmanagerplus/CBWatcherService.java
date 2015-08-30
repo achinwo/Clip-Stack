@@ -1,4 +1,4 @@
-package com.catchingnow.tinyclipboardmanager;
+package com.aetoslabs.clipboardmanagerplus;
 
 import android.annotation.TargetApi;
 import android.app.Notification;
@@ -25,6 +25,8 @@ import android.util.Log;
 import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.Toast;
+
+import com.catchingnow.clipboardmanagerplus.R;
 
 import java.util.ArrayList;
 import java.util.Collections;

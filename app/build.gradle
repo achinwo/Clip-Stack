@@ -5,7 +5,7 @@ android {
     buildToolsVersion "21.1.2"
 
     defaultConfig {
-        applicationId "com.catchingnow.tinyclipboardmanager"
+        applicationId "com.aetoslabs.clipboardmanagerplus"
         minSdkVersion 14
         targetSdkVersion 22
         versionCode 57
