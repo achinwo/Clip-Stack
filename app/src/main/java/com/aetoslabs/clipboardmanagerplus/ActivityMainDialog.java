@@ -8,8 +8,6 @@ import android.view.View;
 import android.widget.ImageButton;
 import android.widget.TextView;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 /**
  * Created by heruoxin on 15/3/27.
  */

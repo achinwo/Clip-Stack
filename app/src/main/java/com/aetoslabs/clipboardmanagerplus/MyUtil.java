@@ -14,8 +14,6 @@ import android.view.accessibility.AccessibilityManager;
 import android.view.animation.Animation;
 import android.view.animation.Transformation;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;

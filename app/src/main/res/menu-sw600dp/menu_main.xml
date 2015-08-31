@@ -27,11 +27,6 @@
             android:icon="@drawable/ic_action_delete"
             app:showAsAction="never" />
         <item
-            android:id="@+id/action_export"
-            android:title="@string/action_backup"
-            android:icon="@drawable/ic_action_import_export"
-            app:showAsAction="never" />
-        <item
             android:id="@+id/action_settings"
             android:title="@string/action_settings"
             android:icon="@drawable/ic_action_settings"

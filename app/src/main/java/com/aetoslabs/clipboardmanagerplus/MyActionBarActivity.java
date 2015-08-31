@@ -19,8 +19,6 @@ import android.view.ViewGroup;
 import android.view.ViewTreeObserver;
 import android.view.Window;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 import java.util.ArrayList;
 
 /**

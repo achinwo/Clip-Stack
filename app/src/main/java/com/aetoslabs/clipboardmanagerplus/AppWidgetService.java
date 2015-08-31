@@ -7,8 +7,6 @@ import android.os.Bundle;
 import android.widget.RemoteViews;
 import android.widget.RemoteViewsService;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 import java.util.List;
 
 /**

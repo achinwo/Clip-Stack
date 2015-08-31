@@ -36,8 +36,6 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -326,12 +324,6 @@ public class ActivityMain extends MyActionBarActivity {
             case R.id.action_star:
                 onStarredMenuClicked();
                 break;
-//            case R.id.action_refresh:
-//                setView(queryText);
-//                return super.onOptionsItemSelected(item);
-            case R.id.action_export:
-                startActivity(new Intent(context, ActivityBackup.class));
-                break;
             case R.id.action_delete_all:
                 clearAll();
                 break;
@@ -467,7 +459,7 @@ public class ActivityMain extends MyActionBarActivity {
                     case 6:
                         Intent browserIntent = new Intent(
                                 Intent.ACTION_VIEW,
-                                Uri.parse("https://play.google.com/store/apps/details?id=com.catchingnow.tinyclipboardmanager")
+                                Uri.parse("https://play.google.com/store/apps/details?id=com.aetoslabs.clipboardmanagerplus")
                         );
                         startActivity(browserIntent);
                         Toast.makeText(

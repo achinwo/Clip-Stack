@@ -16,8 +16,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 public class ActivitySetting extends MyPreferenceActivity {
 
     public final static String PREF_NOTIFICATION_SHOW = "pref_notification_show";

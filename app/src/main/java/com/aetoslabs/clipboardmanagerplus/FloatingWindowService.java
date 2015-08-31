@@ -15,8 +15,6 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 //https://github.com/EatHeat/FloatingExample
 
 public class FloatingWindowService extends Service {

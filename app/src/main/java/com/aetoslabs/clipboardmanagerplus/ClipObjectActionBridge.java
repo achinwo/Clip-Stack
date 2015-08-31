@@ -9,8 +9,6 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 
 /**
  * An {@link IntentService} subclass for handling asynchronous task requests in
@@ -24,8 +22,8 @@ public class ClipObjectActionBridge extends IntentService {
     public final static int ACTION_OPEN_MAIN_DIALOG = 5;
     public final static int ACTION_REFRESH_WIDGET = 6;
     public final static int ACTION_CHANGE_WIDGET_STAR = 7;
-    public final static String ACTION_CODE = "com.catchingnow.tinyclipboardmanager.actionCode";
-    public final static String STATUE_IS_STARRED  = "com.catchingnow.tinyclipboardmanager.isStarred";
+    public final static String ACTION_CODE = "com.aetoslabs.clipboardmanagerplus.actionCode";
+    public final static String STATUE_IS_STARRED  = "com.aetoslabs.clipboardmanagerplus.isStarred";
 
 
     public Handler mHandler;

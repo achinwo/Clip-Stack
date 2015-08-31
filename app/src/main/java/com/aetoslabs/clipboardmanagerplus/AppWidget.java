@@ -11,8 +11,6 @@ import android.net.Uri;
 import android.preference.PreferenceManager;
 import android.widget.RemoteViews;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 import java.util.Date;
 
 

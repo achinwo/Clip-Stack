@@ -26,8 +26,6 @@ import android.view.View;
 import android.widget.RemoteViews;
 import android.widget.Toast;
 
-import com.catchingnow.clipboardmanagerplus.R;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
@@ -35,15 +33,15 @@ import java.util.List;
 
 public class CBWatcherService extends Service {
 
-    public final static String INTENT_EXTRA_FORCE_SHOW_NOTIFICATION = "com.catchingnow.tinyclipboardmanager.EXTRA.FORCE_SHOW_NOTIFICATION";
-    public final static String INTENT_EXTRA_MY_ACTIVITY_ON_FOREGROUND_MESSAGE = "com.catchingnow.tinyclipboardmanager.EXTRA.MY_ACTIVITY_ON_FOREGROUND_MESSAGE";
-    public final static String INTENT_EXTRA_CHANGE_STAR_STATUES = "com.catchingnow.tinyclipboardmanager.EXTRA.CHANGE_STAR_STATUES";
-    public final static String INTENT_EXTRA_TEMPORARY_STOP = "com.catchingnow.tinyclipboardmanager.EXTRA.TEMPORARY_STOP";
-    public final static String INTENT_EXTRA_CHECK_CLIPBOARD_NOW = "com.catchingnow.tinyclipboardmanager.EXTRA.CHECK_CLIPBOARD_NOW";
+    public final static String INTENT_EXTRA_FORCE_SHOW_NOTIFICATION = "com.aetoslabs.clipboardmanagerplus.EXTRA.FORCE_SHOW_NOTIFICATION";
+    public final static String INTENT_EXTRA_MY_ACTIVITY_ON_FOREGROUND_MESSAGE = "com.aetoslabs.clipboardmanagerplus.EXTRA.MY_ACTIVITY_ON_FOREGROUND_MESSAGE";
+    public final static String INTENT_EXTRA_CHANGE_STAR_STATUES = "com.aetoslabs.clipboardmanagerplus.EXTRA.CHANGE_STAR_STATUES";
+    public final static String INTENT_EXTRA_TEMPORARY_STOP = "com.aetoslabs.clipboardmanagerplus.EXTRA.TEMPORARY_STOP";
+    public final static String INTENT_EXTRA_CHECK_CLIPBOARD_NOW = "com.aetoslabs.clipboardmanagerplus.EXTRA.CHECK_CLIPBOARD_NOW";
 
     public final static String ON_DESTROY = "onCBWatcherServiceDestroy";
 
-    public final static int JOB_ID = 1;
+    public final static int JOB_ID = 16;
     public int NUMBER_OF_CLIPS = 5; //3-6
 
     private final static String NOTIFICATION_GROUP = "notification_group";

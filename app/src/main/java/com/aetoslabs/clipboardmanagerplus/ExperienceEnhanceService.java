@@ -77,7 +77,7 @@ public class ExperienceEnhanceService extends AccessibilityService {
         AccessibilityNodeInfo nodeInfo = event.getSource();
         if (nodeInfo != null) {
             String packageName = String.valueOf(nodeInfo.getPackageName());
-            if (packageName.contains("catchingnow.tinyclipboardmanager")) {
+            if (packageName.contains("aetoslabs.clipboardmanagerplus")) {
                 stopFloatingWindow();
                 return;
             }
