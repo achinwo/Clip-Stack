@@ -1,5 +1,7 @@
 # Clip-Stack
 
+[![Join the chat at https://gitter.im/achinwo/Clip-Stack-Plus](https://badges.gitter.im/achinwo/Clip-Stack-Plus.svg)](https://gitter.im/achinwo/Clip-Stack-Plus?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 
 
 ### A tiny clipboard history manager app.
